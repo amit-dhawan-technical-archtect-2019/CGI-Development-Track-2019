@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="force.apex" timestamp="2019-07-27T21:51:14+05:30" hostname="https://cgi-ttt-training-demo-dev-ed.my.salesforce.com" tests="2" failures="0"  errors="0"  time="2.62">
+        <properties>
+            <property name="outcome" value="Passed"/>
+            <property name="testsRan" value="2"/>
+            <property name="passing" value="2"/>
+            <property name="failing" value="0"/>
+            <property name="skipped" value="0"/>
+            <property name="passRate" value="100%"/>
+            <property name="failRate" value="0%"/>
+            <property name="testStartTime" value="Jul 27, 2019 9:51 PM"/>
+            <property name="testExecutionTime" value="2.62 s"/>
+            <property name="testTotalTime" value="2.62 s"/>
+            <property name="commandTime" value="10.52 s"/>
+            <property name="hostname" value="https://cgi-ttt-training-demo-dev-ed.my.salesforce.com"/>
+            <property name="orgId" value="00D2v000001dQzSEAU"/>
+            <property name="username" value="amit.dhawan-architect-ttt-training@cgi.com"/>
+            <property name="testRunId" value="7072v0000C1BmPL"/>
+            <property name="userId" value="0052v00000ZIzveAAD"/>
+        </properties>
+        <testcase name="testBulkInsert" classname="TestAddOwnerColor" time="2.26">
+        </testcase>
+        <testcase name="testSingleInsert" classname="TestAddOwnerColor" time="0.36">
+        </testcase>
+    </testsuite>
+</testsuites>

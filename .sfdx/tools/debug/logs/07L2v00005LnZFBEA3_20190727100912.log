@@ -1,0 +1,39 @@
+46.0 APEX_CODE,DEBUG;APEX_PROFILING,INFO
+Execute Anonymous: list<contact> lstCons=[Select id, firstname, lastname from contact limit 10];
+Execute Anonymous: system.debug('List of contacts---'+lstCons);
+Execute Anonymous: for(contact con:lstCons){
+Execute Anonymous:     system.debug('--->'+con.firstname);
+Execute Anonymous: }
+09:39:12.48 (48795155)|USER_INFO|[EXTERNAL]|0052v00000ZIzve|amit.dhawan-architect-ttt-training@cgi.com|(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)|GMT-07:00
+09:39:12.48 (48829551)|EXECUTION_STARTED
+09:39:12.48 (48836071)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+09:39:12.48 (55016881)|USER_DEBUG|[2]|DEBUG|List of contacts---(Contact:{Id=0032v00002pG5L3AAK, FirstName=Jane-qa-1, LastName=Smith-qa-3}, Contact:{Id=0032v00002pG5ngAAC, FirstName=Carol, LastName=Ruiz}, Contact:{Id=0032v00002pG5SlAAK, FirstName=Joe, LastName=Smith}, Contact:{Id=0032v00002pG5SmAAK, FirstName=Kathy, LastName=Smith}, Contact:{Id=0032v00002pG5SnAAK, FirstName=Caroline, LastName=Roth}, Contact:{Id=0032v00002o6sVRAAY, FirstName=Amit, LastName=Dhawan}, Contact:{Id=0032v00002pFhpzAAC, FirstName=QA Trainer Amit, LastName=QA Dhawan}, Contact:{Id=0032v00002pG5BwAAK, FirstName=Joe, LastName=Smith}, Contact:{Id=0032v00002pG5BxAAK, FirstName=Kathy, LastName=Smith}, Contact:{Id=0032v00002pG5ByAAK, FirstName=Caroline, LastName=Roth})
+09:39:12.48 (55350863)|USER_DEBUG|[4]|DEBUG|--->Jane-qa-1
+09:39:12.48 (55385479)|USER_DEBUG|[4]|DEBUG|--->Carol
+09:39:12.48 (55405664)|USER_DEBUG|[4]|DEBUG|--->Joe
+09:39:12.48 (55423178)|USER_DEBUG|[4]|DEBUG|--->Kathy
+09:39:12.48 (55440299)|USER_DEBUG|[4]|DEBUG|--->Caroline
+09:39:12.48 (55455805)|USER_DEBUG|[4]|DEBUG|--->Amit
+09:39:12.48 (55472337)|USER_DEBUG|[4]|DEBUG|--->QA Trainer Amit
+09:39:12.48 (55489234)|USER_DEBUG|[4]|DEBUG|--->Joe
+09:39:12.48 (55504157)|USER_DEBUG|[4]|DEBUG|--->Kathy
+09:39:12.48 (55520243)|USER_DEBUG|[4]|DEBUG|--->Caroline
+09:39:12.55 (55631796)|CUMULATIVE_LIMIT_USAGE
+09:39:12.55 (55631796)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 1 out of 100
+  Number of query rows: 10 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+09:39:12.55 (55631796)|CUMULATIVE_LIMIT_USAGE_END
+
+09:39:12.48 (55685673)|CODE_UNIT_FINISHED|execute_anonymous_apex
+09:39:12.48 (56722617)|EXECUTION_FINISHED

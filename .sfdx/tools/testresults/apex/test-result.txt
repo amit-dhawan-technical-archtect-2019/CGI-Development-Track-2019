@@ -1,0 +1,177 @@
+=== Test Reports
+FORMAT  FILE
+──────  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+txt     /Users/apple/Downloads/CGI Development Track 2019/.sfdx/tools/testresults/apex/test-result.txt
+txt     /Users/apple/Downloads/CGI Development Track 2019/.sfdx/tools/testresults/apex/test-run-id.txt
+junit   /Users/apple/Downloads/CGI Development Track 2019/.sfdx/tools/testresults/apex/test-result-7072v0000C1BqO7-junit.xml
+json    /Users/apple/Downloads/CGI Development Track 2019/.sfdx/tools/testresults/apex/test-result-7072v0000C1BqO7.json
+json    /Users/apple/Downloads/CGI Development Track 2019/.sfdx/tools/testresults/apex/test-result-codecoverage.json
+
+=== Apex Code Coverage
+ID                  NAME                                 % COVERED           UNCOVERED LINES
+──────────────────  ───────────────────────────────────  ──────────────────  ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+01p2v00000D9Io0AAF  HandlerFindContact                   100%
+01p2v00000D9InmAAF  BotItem                              100%
+01p2v00000D9InkAAF  BotField                             100%
+01p2v00000D9Io5AAF  HandlerHelpTopic                     100%
+01p2v00000D9InoAAF  BotMessageButton                     100%
+01p2v00000D9Io2AAF  HandlerFindPropertiesByBedrooms      84%                 5,6,7
+01p2v00000D9InxAAF  HandlerEmployeeId                    100%
+01p2v00000D9Io3AAF  HandlerHello                         100%
+01q2v000000tf0wAAA  AddOwnerColorTrigger                 100%
+01p2v00000D9InjAAF  BotController                        89%                 54,56,58
+01p2v00000D9InvAAF  HandlerAddTwoNumbers                 100%
+01p2v00000D9InpAAF  BotRecord                            100%
+01p2v00000D9InqAAF  BotResponse                          54%                 6,9,10,13,14,15
+01p2v00000D9Io1AAF  HandlerFindProperties                98%                 65
+01p2v00000D9InwAAF  HandlerCostCenter                    100%
+01p2v00000D9IoDAAV  HandlerTravelApproval                100%
+01q2v000000tf0DAAQ  AccountAddressTrigger                75%                 5
+01p2v00000D9InnAAF  BotMessage                           96%                 10
+01q2v000000tezZAAQ  SendEmail2Contact                    50%                 6,7,9
+01q2v000000tezeAAA  AddRelatedRecord                     NaN%
+01p2v00000EZmQ8AAL  EmailManager                         5%                  5,6,9,11,12,13,14,15,18,19,22,23,27,28,34,35,39,44
+01p2v00000D9Io4AAF  HandlerHelp                          100%
+01p2v00000D9IoAAAV  HandlerQuarter                       100%
+01p2v00000D9Io7AAF  HandlerMyOpenCases                   100%
+01p2v00000D9Io9AAF  HandlerPipeline                      100%
+01p2v00000D9IoEAAV  HttpFormBuilder                      94%                 55,60
+01p2v00000D9IntAAF  EinsteinVisionController             77%                 16,21,22,38,57,58,73,74,75,96,97,101,102,118,119,123,124,140,141,145,146,173,174,178,179,209,210,214,215,230,251,252,253,254,255,256,257,258,259,262,264,265,269,273
+01p2v00000D9IoFAAV  JWT                                  76%                 8,13,46,47,55,56,57,62,67,68,69,72,82
+01p2v00000D9IoHAAV  LIFXController                       93%                 14,40
+01p2v00000D9IoJAAV  PostPriceChangeToSlack               82.14285714285714%  8,10,12,47,48
+01p2v00000D9IoNAAV  PropertyPagedResult                  100%
+01p2v00000D9IoLAAV  PropertyController                   93%                 46,48
+01p2v00000D9IoOAAV  PushPriceChangeNotification          81.81818181818183%  8,10,12,23,53,54
+01q2v000000tV0lAAE  RejectDuplicateFavorite              100%
+01q2v000000tf0SAAQ  ClosedOpportunityTrigger             71.42857142857143%  6,9
+01p2v00000D9IoRAAV  SlackOpportunityPublisher            91.30434782608695%  36,37
+01p2v00000D9vY2AAJ  SiteLoginController                  100%
+01p2v00000D9vY4AAJ  SiteRegisterController               81.48148148148148%  39,40,43,44,45
+01p2v00000D9vY6AAJ  ChangePasswordController             100%
+01p2v00000D9vY8AAJ  ForgotPasswordController             88.88888888888889%  15
+01p2v00000D9vYAAAZ  MyProfilePageController              87.5%               21,37,38
+01p2v00000D9vYCAAZ  CommunitiesLoginController           100%
+01p2v00000D9vYEAAZ  CommunitiesLandingController         100%
+01p2v00000D9vYGAAZ  CommunitiesSelfRegController         76.19047619047619%  16,51,52,53,54,63,64,67,68,69
+01p2v00000D9vYIAAZ  CommunitiesSelfRegConfirmController  100%
+01p2v00000D9vYMAAZ  LightningLoginFormController         64%                 12,35,41,42,43,54,56,57,58,60,61,62
+01p2v00000D9vYLAAZ  LightningForgotPasswordController    50%                 15,16,24,26,27,28,30,31,32
+01p2v00000D9vYKAAZ  LightningSelfRegisterController      69%                 21,51,74,87,91,92,93,111,112,113,114,115,116,117,118,119,120,126,128,129,130,132,133,134
+01p2v00000EZqcsAAD  TestCalculator                       100%
+01p2v00000EZqPlAAL  calculatorServices                   26.36363636363636%  6,7,8,13,14,15,16,35,36,37,38,43,44,45,46,50,51,52,56,57,58,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,88,89,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,110,111,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,132,133
+01p2v00000EZqhKAAT  AnimalsCallout                       100%
+
+=== Test Results
+TEST NAME                                                                                         OUTCOME  MESSAGE                                                                                                                                                                       RUNTIME (MS)
+────────────────────────────────────────────────────────────────────────────────────────────────  ───────  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────  ────────────
+BotTest.testAddTwoNumbers                                                                         Pass                                                                                                                                                                                   29
+BotTest.testBotController                                                                         Pass                                                                                                                                                                                   72
+BotTest.testCostCenter                                                                            Pass                                                                                                                                                                                   10
+BotTest.testEmployeeId                                                                            Pass                                                                                                                                                                                   9
+BotTest.testFindAccount                                                                           Fail     System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CustomerPriority__c]: [CustomerPriority__c]  71
+                                                                                                           Class.BotTest.testFindAccount: line 43, column 1
+BotTest.testFindContact                                                                           Pass                                                                                                                                                                                   300
+BotTest.testFindProperties                                                                        Pass                                                                                                                                                                                   227
+BotTest.testFindPropertiesByBedrooms                                                              Pass                                                                                                                                                                                   153
+BotTest.testHello                                                                                 Pass                                                                                                                                                                                   9
+BotTest.testHelp                                                                                  Pass                                                                                                                                                                                   44
+BotTest.testHelpTopic                                                                             Pass                                                                                                                                                                                   7
+BotTest.testMyOpenCases                                                                           Pass                                                                                                                                                                                   200
+BotTest.testNext                                                                                  Fail     System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CustomerPriority__c]: [CustomerPriority__c]  39
+                                                                                                           Class.BotTest.testNext: line 126, column 1
+BotTest.testPipeline                                                                              Pass                                                                                                                                                                                   10
+BotTest.testQuarter                                                                               Pass                                                                                                                                                                                   9
+BotTest.testSOQL                                                                                  Fail     System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CustomerPriority__c]: [CustomerPriority__c]  34
+                                                                                                           Class.BotTest.testSOQL: line 138, column 1
+BotTest.testTopOpportunities                                                                      Fail     System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CustomerPriority__c]: [CustomerPriority__c]  39
+                                                                                                           Class.BotTest.testTopOpportunities: line 92, column 1
+BotTest.testTravelApproval                                                                        Pass                                                                                                                                                                                   12
+ChangePasswordControllerTest.testChangePasswordController                                         Pass                                                                                                                                                                                   32
+CommunitiesLandingControllerTest.testCommunitiesLandingController                                 Pass                                                                                                                                                                                   11
+CommunitiesLoginControllerTest.testCommunitiesLoginController                                     Pass                                                                                                                                                                                   12
+CommunitiesSelfRegConfirmControllerTest.testCommunitiesSelfRegConfirmController                   Pass                                                                                                                                                                                   17
+CommunitiesSelfRegControllerTest.testCommunitiesSelfRegController                                 Pass                                                                                                                                                                                   16
+EinsteinVisionControllerTest.JTWIssue                                                             Pass                                                                                                                                                                                   32
+EinsteinVisionControllerTest.testCreateDataset                                                    Pass                                                                                                                                                                                   457
+EinsteinVisionControllerTest.testDeleteDataset                                                    Pass                                                                                                                                                                                   150
+EinsteinVisionControllerTest.testGetDataSets                                                      Pass                                                                                                                                                                                   137
+EinsteinVisionControllerTest.testGetModelByDataset                                                Pass                                                                                                                                                                                   134
+EinsteinVisionControllerTest.testPredict                                                          Pass                                                                                                                                                                                   137
+EinsteinVisionControllerTest.testTrainModel                                                       Pass                                                                                                                                                                                   133
+ForgotPasswordControllerTest.testForgotPasswordController                                         Pass                                                                                                                                                                                   20
+LIFXControllerTest.testGetLights                                                                  Pass                                                                                                                                                                                   23
+LIFXControllerTest.testSetBrightness                                                              Pass                                                                                                                                                                                   12
+LIFXControllerTest.testSetPower                                                                   Pass                                                                                                                                                                                   32
+LightningForgotPasswordControllerTest.LightningForgotPasswordControllerInstantiation              Pass                                                                                                                                                                                   24
+LightningForgotPasswordControllerTest.testLightningForgotPasswordControllerInvalidUserName        Pass                                                                                                                                                                                   5
+LightningForgotPasswordControllerTest.testLightningForgotPasswordControllerWithNullCheckEmailRef  Pass                                                                                                                                                                                   6
+LightningLoginFormControllerTest.LightningLoginFormControllerInstantiation                        Pass                                                                                                                                                                                   20
+LightningLoginFormControllerTest.testAuthConfig                                                   Pass                                                                                                                                                                                   22
+LightningLoginFormControllerTest.testGetSelfRegistrationURL                                       Pass                                                                                                                                                                                   9
+LightningLoginFormControllerTest.testIsSelfRegistrationEnabled                                    Pass                                                                                                                                                                                   10
+LightningLoginFormControllerTest.testIsUsernamePasswordEnabled                                    Pass                                                                                                                                                                                   22
+LightningLoginFormControllerTest.testLoginWithInvalidCredentials                                  Pass                                                                                                                                                                                   7
+LightningSelfRegisterControllerTest.LightningSelfRegisterControllerInstantiation                  Pass                                                                                                                                                                                   20
+LightningSelfRegisterControllerTest.testGetExtraFieldsInSelfRegistration                          Pass                                                                                                                                                                                   214
+LightningSelfRegisterControllerTest.testGetNonEmptyExtraFields                                    Pass                                                                                                                                                                                   9
+LightningSelfRegisterControllerTest.testGetNullExtraFields                                        Pass                                                                                                                                                                                   7
+LightningSelfRegisterControllerTest.testIsValidPassword                                           Pass                                                                                                                                                                                   6
+LightningSelfRegisterControllerTest.testSelfRegisterWithCreatedAccount                            Fail     System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CustomerPriority__c]: [CustomerPriority__c]  91
+                                                                                                           Class.LightningSelfRegisterControllerTest.testSelfRegisterWithCreatedAccount: line 42, column 1
+LightningSelfRegisterControllerTest.testSelfRegisterWithProperCredentials                         Pass                                                                                                                                                                                   9
+LightningSelfRegisterControllerTest.testSelfRegistration                                          Pass                                                                                                                                                                                   8
+LightningSelfRegisterControllerTest.testSiteAsContainerEnabled                                    Pass                                                                                                                                                                                   40
+MyProfilePageControllerTest.testSave                                                              Pass                                                                                                                                                                                   165
+PostPriceChangeToSlackTest.testPost                                                               Pass                                                                                                                                                                                   622
+PropertyControllerTest.getAvailableProperties                                                     Pass                                                                                                                                                                                   663
+PropertyControllerTest.getSimilarProperties                                                       Pass                                                                                                                                                                                   144
+PropertyControllerTest.testFindAll                                                                Pass                                                                                                                                                                                   180
+PropertyControllerTest.testFindById                                                               Pass                                                                                                                                                                                   138
+PushPriceChangeNotificationTest.testPush                                                          Pass                                                                                                                                                                                   534
+RejectDuplicateFavoriteTest.acceptNonDuplicate                                                    Pass                                                                                                                                                                                   1050
+RejectDuplicateFavoriteTest.rejectDuplicate                                                       Pass                                                                                                                                                                                   512
+SiteLoginControllerTest.testSiteLoginController                                                   Pass                                                                                                                                                                                   12
+SiteRegisterControllerTest.testRegistration                                                       Pass                                                                                                                                                                                   38
+SlackOpportunityPublisherTest.testPost                                                            Pass                                                                                                                                                                                   507
+TestAddOwnerColor.testBulkInsert                                                                  Pass                                                                                                                                                                                   2041
+TestAddOwnerColor.testSingleInsert                                                                Pass                                                                                                                                                                                   902
+TestCalculatorCalloutMock.testCallout                                                             Pass                                                                                                                                                                                   31
+testGetCallout.testGetCalloutMethod                                                               Pass                                                                                                                                                                                   105
+
+=== Failures
+FULLNAME                                                                MESSAGE
+──────────────────────────────────────────────────────────────────────  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+BotTest.testFindAccount                                                 System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CustomerPriority__c]: [CustomerPriority__c]
+                                                                        /Users/apple/Downloads/CGI Development Track 2019/force-app/main/default/classes/BotTest.cls:43:1
+BotTest.testNext                                                        System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CustomerPriority__c]: [CustomerPriority__c]
+                                                                        /Users/apple/Downloads/CGI Development Track 2019/force-app/main/default/classes/BotTest.cls:126:1
+BotTest.testSOQL                                                        System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CustomerPriority__c]: [CustomerPriority__c]
+                                                                        /Users/apple/Downloads/CGI Development Track 2019/force-app/main/default/classes/BotTest.cls:138:1
+BotTest.testTopOpportunities                                            System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CustomerPriority__c]: [CustomerPriority__c]
+                                                                        /Users/apple/Downloads/CGI Development Track 2019/force-app/main/default/classes/BotTest.cls:92:1
+LightningSelfRegisterControllerTest.testSelfRegisterWithCreatedAccount  System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [CustomerPriority__c]: [CustomerPriority__c]
+                                                                        /Users/apple/Downloads/CGI Development Track 2019/force-app/main/default/classes/LightningSelfRegisterControllerTest.cls:42:1
+
+=== Test Summary
+NAME                 VALUE
+───────────────────  ───────────────────────────────────────────────────────
+Outcome              Failed
+Tests Ran            68
+Passing              63
+Failing              5
+Skipped              0
+Pass Rate            93%
+Fail Rate            7%
+Test Start Time      Jul 28, 2019 12:31 AM
+Test Execution Time  10802 ms
+Test Total Time      10802 ms
+Command Time         21393 ms
+Hostname             https://cgi-ttt-training-demo-dev-ed.my.salesforce.com
+Org Id               00D2v000001dQzSEAU
+Username             amit.dhawan-architect-ttt-training@cgi.com
+Test Run Id          7072v0000C1BqO7
+User Id              0052v00000ZIzveAAD
+Test Run Coverage    77%
+Org Wide Coverage    49%
+

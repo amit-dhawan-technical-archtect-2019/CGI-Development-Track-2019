@@ -1,0 +1,70 @@
+{
+    "summary": {
+        "outcome": "Passed",
+        "testsRan": 2,
+        "passing": 2,
+        "failing": 0,
+        "skipped": 0,
+        "passRate": "100%",
+        "failRate": "0%",
+        "testStartTime": "Jul 27, 2019 9:51 PM",
+        "testExecutionTime": "2620 ms",
+        "testTotalTime": "2620 ms",
+        "commandTime": "10521 ms",
+        "hostname": "https://cgi-ttt-training-demo-dev-ed.my.salesforce.com",
+        "orgId": "00D2v000001dQzSEAU",
+        "username": "amit.dhawan-architect-ttt-training@cgi.com",
+        "testRunId": "7072v0000C1BmPL",
+        "userId": "0052v00000ZIzveAAD"
+    },
+    "tests": [
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v46.0/tooling/sobjects/ApexTestResult/07M2v000007Ja4yEAC"
+            },
+            "Id": "07M2v000007Ja4yEAC",
+            "QueueItemId": "7092v000000ZZ5xAAG",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072v0000C1BmPLAQ0",
+            "MethodName": "testBulkInsert",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v46.0/tooling/sobjects/ApexClass/01p2v00000EZn8OAAT"
+                },
+                "Id": "01p2v00000EZn8OAAT",
+                "Name": "TestAddOwnerColor",
+                "NamespacePrefix": null
+            },
+            "RunTime": 2259,
+            "FullName": "TestAddOwnerColor.testBulkInsert"
+        },
+        {
+            "attributes": {
+                "type": "ApexTestResult",
+                "url": "/services/data/v46.0/tooling/sobjects/ApexTestResult/07M2v000007Ja4zEAC"
+            },
+            "Id": "07M2v000007Ja4zEAC",
+            "QueueItemId": "7092v000000ZZ5xAAG",
+            "StackTrace": null,
+            "Message": null,
+            "AsyncApexJobId": "7072v0000C1BmPLAQ0",
+            "MethodName": "testSingleInsert",
+            "Outcome": "Pass",
+            "ApexClass": {
+                "attributes": {
+                    "type": "ApexClass",
+                    "url": "/services/data/v46.0/tooling/sobjects/ApexClass/01p2v00000EZn8OAAT"
+                },
+                "Id": "01p2v00000EZn8OAAT",
+                "Name": "TestAddOwnerColor",
+                "NamespacePrefix": null
+            },
+            "RunTime": 361,
+            "FullName": "TestAddOwnerColor.testSingleInsert"
+        }
+    ]
+}
